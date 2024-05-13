@@ -8,13 +8,13 @@
 <body class="hold-transition login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="../../index2.html"><b>Admin</b>LTE</a>
+            <a href="#"><b>Admin</b>LTE</a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
             <div class="card-body login-card-body">
                 <p class="login-box-msg">Sign in to start your session</p>
-
+                @include('admin.users.alert')
                 <form action="/admin/users/login/store" method="post">
                     <div class="input-group mb-3">
                         <input type="email" class="form-control" name="email" placeholder="Email">
