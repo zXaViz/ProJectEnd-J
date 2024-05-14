@@ -1,0 +1,289 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --font-heading: "Sen", sans-serif;
+  --primary-color: #ffb900;
+
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+
+}
+h2 {
+  font-family: "Sen", sans-serif;
+  font-size: 40px;
+}
+h1 {
+    font-family: "Sen", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+}
+/* Dung chung cho ca trang web */
+.admin_feature {
+  display: flex;
+  margin: 100px;
+}
+a {
+  text-decoration: none;
+}
+.heading-lv2 {
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn {
+  display: inline-block;
+  padding: 0 16px;
+  line-height: 5rem;
+  min-width: 118px;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 999px;
+  background-color: #171100;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+/* =========================================================================Header============================================ */
+/* Header */
+
+.header {
+  z-index: 1;
+  background-color: #fffcf4;
+  position: sticky;
+  top: -28px;
+}
+.header .bodyheader {
+  display: flex;
+  align-items: center;
+  padding: 36px 0 8px;
+}
+.nav ul {
+  display: flex;
+}
+.nav {
+  margin-left: auto;
+}
+.nav a {
+  font-size: 1.6rem;
+  color: #5f5b53;
+  padding: 8px 21px;
+  position: relative;
+  
+}
+.nav li.active,
+.nav a:hover {
+  text-shadow: 1px 0 0 currentColor;
+  color: #171100;
+}
+.nav li.active a::after {
+  display: block;
+  position: absolute;
+  bottom: 6px;
+  content: "";
+  width: 12px;
+  height: 2px;
+  left: 21px;
+  border-radius: 1px;
+  background-color: #171100;
+}
+.header .btn-sign-up {
+  min-width: 144px;
+}
+.header .action {
+  margin-left: 50px;
+}
+.bodyheader .logo_hui{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+/* =========================================================================Popular================================== */
+/* POPULAR */
+.popular .popular-top {
+  padding: 65px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular .infor .description {
+  width: 458px;
+  height: 60px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 16px;
+}
+.popular .controls {
+  display: flex;
+  gap: 18px;
+}
+.popular-top .control-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+.popular-top .control-btn:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+.popular .courses-list {
+  display: flex;
+}
+.popular .courses-list .thum {
+  width: 370px;
+  height: 278px;
+  border-radius: 12px 12px 0 0;
+  object-fit: cover;
+}
+.popular .courses-item {
+  margin-right: 30px;
+  border-radius: 12px;
+  border: 0.5px solid #e2dfda;
+  width: 370px;
+  height: 466px;
+}
+.popular .courses-item:hover {
+  box-shadow: 0px 18px 36px 10px #0000000d;
+  border: none;
+}
+.popular .courses-item .infor {
+  margin: 16px 22px 22px;
+}
+.courses-item .heading {
+  display: flex;
+  justify-content: space-between;
+}
+.courses-item .heading .title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px;
+
+}
+.courses-item .heading .title a {
+  color: #171100;
+}
+.courses-item .heading .rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
+.courses-item .heading .start {
+  margin-right: 6px;
+}
+.courses-list .courses-item p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px;
+  color: #5f5b53;
+}
+.courses-item .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+  background-color: white;
+}
+.courses-item .footer .price {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 30px;
+}
+.popular .footer .btn-book {
+  border: none;
+  cursor: pointer;
+}
+.courses-item .footer .btn-book:hover {
+  background: var(--primary-color);
+}
+
+/* =========================================================================Footer======================================================= */
+.footer {
+  background-color: #2e2100;
+}
+.footer .row {
+  display: flex;
+  gap: 130px;
+}
+.footer .colum {
+  padding-top: 40px;
+}
+.footer .row .logo {
+  color: white;
+}
+
+.footer .colum .description {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px;
+  color: #bfbcb2;
+  margin: 18px 0;
+  width: 267px;
+}
+.footer .colum .socials img {
+  margin-right: 9px;
+}
+.footer .colum .title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 28px;
+  color: #ffffff;
+}
+.footer .colum .decoration {
+  width: 130px;
+  height: 1px;
+  background-color: #59554b;
+  margin-top: 14px;
+  margin-bottom: 26px;
+}
+.footer .colum .list li {
+  margin-bottom: 16px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px;
+}
+.colum .list a {
+  color: #bfbcb2;
+}
+.colum .list strong {
+  font-weight: bold;
+  color: white;
+}
+.footer .underlaign {
+  width: 1170px;
+  height: 1px;
+  background-color: #59554b;
+}
+.footer .descriptionlv2 {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 26px;
+  color: #807d74;
+  padding: 28px;
+}
+.colum .list a:hover {
+  text-shadow: 1px 0 0 currentColor;
+}
