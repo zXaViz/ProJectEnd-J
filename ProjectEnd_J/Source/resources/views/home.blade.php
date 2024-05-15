@@ -54,7 +54,7 @@
                             </span>
 
                                     <span class="block1-info stext-102 trans-04">
-                                HOT 2021
+                                HOT 2024
                             </span>
                                 </div>
 
