@@ -43,6 +43,24 @@ class MenuSeeder extends Seeder
             'active' => '1',
         ]);
         DB::table('menus')->insert([
+            'id' => '4',
+            'name' => 'Tablet',
+            'parent_id' => '0',
+            'description' => 'Tablet',
+            'content' => 'Tablet',
+            'slug' => 'Tablet',
+            'active' => '1',
+        ]);
+        DB::table('menus')->insert([
+            'id' => '5',
+            'name' => 'Smartwatch',
+            'parent_id' => '0',
+            'description' => 'Smartwatch',
+            'content' => 'Smartwatch',
+            'slug' => 'Smartwatch',
+            'active' => '1',
+        ]);
+        DB::table('menus')->insert([
             'id' => '11',
             'name' => 'SamSung',
             'parent_id' => '1',
