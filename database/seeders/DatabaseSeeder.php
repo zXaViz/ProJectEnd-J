@@ -17,14 +17,23 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
 
         DB::table('users')->insert([
-            'name' => 'minhhuyen',
+            'name' => 'minhhuyen1',
             'email' => 'minhhuyen0205@gmail.com',
             'password' => Hash::make('02052002'),
             'role' => '2',
             'phone' => '0334340937',
             'avatar' => 'huyen.jpg',
         ]);
-
+        for ($i = 0; $i < 35; $i++) {
+            DB::table('users')->insert([
+                'name' => 'minhhuyen',
+                'email' => 'minhhuyen0205{{$i}}@gmail.com',
+                'password' => Hash::make('02052002'),
+                'role' => '1',
+                'phone' => '0334340937',
+                'avatar' => 'huyen.jpg',
+            ]);
+        }
 
         // Products
         DB::table('products')->insert([
@@ -88,7 +97,7 @@ class DatabaseSeeder extends Seeder
                 'discount' => 35,
                 'tag' => 'Accessories',
             ],
-            
+
         ]);
 
     }

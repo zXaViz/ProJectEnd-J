@@ -51,11 +51,13 @@ Route::get('forgot_password', [CrudUserController::class, 'forgot_password'])->n
 Route::get('view_user', [CrudUserController::class, 'view_user'])->name('view_user');
 
 
-// ======================================= Seller =====================================
+// ======================================= Admin =====================================
 Route::get('admin_home', [CrudAdminController::class, 'admin_home'])->name('admin_home');
 Route::get('admin_list_user', [CrudAdminController::class, "admin_list_user"])->name('admin_list_user');
 Route::get('admin_list_product', [CrudAdminController::class, "admin_list_product"])->name('admin_list_product');
 Route::get('admin_edit_product', [CrudAdminController::class, "admin_edit_product"])->name('admin_edit_product');
+// Sreach user
+Route::get('admin_search_user',[CrudAdminController::class, 'admin_search_user'])->name('admin_search_user');
 
 // ======================================= Product ==================================
 Route::get('product', [CrudProductController::class,'product'])->name('product');

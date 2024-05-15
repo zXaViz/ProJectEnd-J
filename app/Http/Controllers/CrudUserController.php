@@ -153,7 +153,7 @@ class CrudUserController extends Controller
         if ($user) {
             $user->delete();
             toastr()->success('Delete user successfully');
-            return Redirect('login');
+            return Redirect('admin_list_user');
         }
     }
 

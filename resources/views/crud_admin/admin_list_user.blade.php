@@ -17,6 +17,7 @@
         font-family: "Poppins", sans-serif;
         background-color: white;
     }
+
     .container {
 
         display: inline-block;
@@ -27,22 +28,26 @@
         margin-right: 250px;
         min-height: 500px;
     }
+
     h2 {
         color: #333;
         padding: 20px;
         margin: 0;
         text-align: center;
     }
+
     table {
         width: 100%;
         border-collapse: collapse;
     }
+
     table th,
     table td {
         padding: 15px;
         text-align: left;
         border-bottom: 1px solid #ddd;
     }
+
     table th {
         background-color: #f2f2f2;
         color: #666;
@@ -54,11 +59,47 @@
     table tbody tr:hover {
         background-color: #f9f9f9;
     }
+
     table tbody tr:nth-child(even) {
         background-color: #f2f2f2;
     }
+
+    ul li {
+        display: inline-block;
+    }
+
+    /* Search User */
+    .search-container {
+        display: flex;
+        width: 400px;
+        height: 50px;
+        margin-left: 700px;
+    }
+
+    input[type="text"] {
+        padding: 10px;
+        flex: 1;
+        border: 1px solid #f0f0f0;
+        border-radius: 5px 0 0 5px;
+        outline: none;
+    }
+
+    button[type="submit"] {
+        padding: 10px 20px;
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+        outline: none;
+    }
+
+    button[type="submit"]:hover {
+        background-color: #ffbb00ea;
+    }
 </style>
+
 <body>
+
     <div class="admin_feature">
         <div class="dashboard_left">
             @include('crud_admin.admin_dashboard')
@@ -66,6 +107,21 @@
         <!-- List user -->
         <div class="container">
             <div class="main-content">
+                <!-- Search user -->
+
+                <div class="search">
+                    <div class="main-content">
+                        <form action="{{route('admin_search_user')}}">
+                        @csrf
+                            <div class="search-container">
+                                <input type="text" name = "result_search_user" placeholder="Search..." />
+                                <button type="submit">
+                                    <img src="CSS/icon/search.png" width="30px" alt="" />
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
                 <h2>User List</h2>
                 <table>
                     <thead>
@@ -93,8 +149,8 @@
                         @endforeach
                     </tbody>
                 </table>
+                {{$users->links()}}
             </div>
-
         </div>
     </div>
 </body>

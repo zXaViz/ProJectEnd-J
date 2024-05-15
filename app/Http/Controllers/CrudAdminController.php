@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Models\Products;
+use App\Providers\AppServiceProvider;
 
 class CrudAdminController extends Controller
 {
@@ -18,8 +19,9 @@ class CrudAdminController extends Controller
     public function admin_list_user()
     {
         if (Auth::check()) {
-            $users = User::all();
-            return view('crud_admin.admin_list_user', ['users' => $users]);
+            
+            $users = User::paginate(10);
+            return view('crud_admin.admin_list_user', compact('users'));
         }
 
     }
@@ -41,5 +43,16 @@ class CrudAdminController extends Controller
 
         $pd = Products::where('product_id', '=', $product_id)->first();
         return view('crud_admin.admin_edit_product');
+    }
+    //Search User
+    public function admin_search_user(Request $request){
+       $query = $request->input('result_search_user');
+
+       $search_user = User::where(
+        'name', 'LIKE', "%$query%")
+        ->orWhere('email', 'LIKE', "%$query%")
+        ->paginate(10);
+
+        return view('crud_admin.admin_result_search_user', compact('search_user'));
     }
 }
