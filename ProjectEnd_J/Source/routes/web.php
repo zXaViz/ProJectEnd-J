@@ -9,6 +9,13 @@ use App\Http\Controllers\Admin\SliderController;
 
 Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
 Route::post('admin/users/login/store', [LoginController::class, 'store']);
+//Register
+Route::get('admin/user/register',[RegisterController::class, 'register'])->name('register');
+Route::post('register_action', [RegisterController::class, 'register_action'])->name('register_action');
+// Logout
+Route::get('admin/logout', [LoginController::class, 'logout'])->name('admin/logout');
+
+
 
 Route::middleware(['auth'])->group(function () {
 
@@ -67,3 +74,6 @@ Route::get('carts', [App\Http\Controllers\CartController::class, 'show']);
 Route::post('update-cart', [App\Http\Controllers\CartController::class, 'update']);
 Route::get('carts/delete/{id}', [App\Http\Controllers\CartController::class, 'remove']);
 Route::post('carts', [App\Http\Controllers\CartController::class, 'addCart']);
+
+
+

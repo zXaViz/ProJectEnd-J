@@ -29,7 +29,7 @@ class SliderService
 
     public function get()
     {
-        return Slider::orderByDesc('id')->paginate(15);
+        return Slider::orderByDesc('id')->paginate(10);
     }
 
     public function update($request, $slider)
