@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Session;
 
 class LoginController extends Controller
 {
+    //Đăng nhập thông tin
     public function index()
     {
         return view('admin.users.login', [
@@ -18,11 +19,12 @@ class LoginController extends Controller
 
     public function store(Request $request)
     {
+        //Xử lý bắt buộc nhập
         $this->validate($request, [
             'email' => 'required|email:filter',
             'password' => 'required'
         ]);
-
+        //Xử lý đăng nhập
         if (Auth::attempt([
                 'email' => $request->input('email'),
                 'password' => $request->input('password')
@@ -30,7 +32,7 @@ class LoginController extends Controller
 
             return redirect()->route('admin');
         }
-
+        //Kiểm tra lỗi
         Session::flash('error', 'Email hoặc Password không đúng');
         return redirect()->back();
     }

@@ -69,9 +69,9 @@
     <!-- /.content-wrapper -->
     <footer class="main-footer">
         <div class="float-right d-none d-sm-block">
-            <b>Version</b> 3.1.0
+            <b>Version</b> 1
         </div>
-        <strong>Copyright &copy; 2024-2024 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+        <strong><a href="http://127.0.0.1:8000/admin/users/login">Log Out</a></strong>
     </footer>
 </div>
 <!-- ./wrapper -->
