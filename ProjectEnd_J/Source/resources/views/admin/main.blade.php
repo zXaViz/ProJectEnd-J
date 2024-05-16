@@ -30,6 +30,9 @@
     @include('admin.sidebar')
 
 
+
+
+
     <div class="content-wrapper">
 
         <!-- Main content -->
@@ -69,9 +72,11 @@
     <!-- /.content-wrapper -->
     <footer class="main-footer">
         <div class="float-right d-none d-sm-block">
-            <b>Version</b> 1
+            <b>
+                <a href="admin/users/login">LOG OUT</a>
+            </b>
         </div>
-        <strong><a href="http://127.0.0.1:8000/admin/users/login">Log Out</a></strong>
+        <strong><a href="/">HOME</a></strong>
     </footer>
 </div>
 <!-- ./wrapper -->
