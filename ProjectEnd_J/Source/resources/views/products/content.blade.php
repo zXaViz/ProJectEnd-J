@@ -44,7 +44,7 @@
                                 <div class="slick-list draggable">
                                     <div class="slick-track" style="opacity: 1; width: 1539px;">
                                         <div class="item-slick3 slick-slide slick-current slick-active"
-                                             data-thumb="images/product-detail-01.jpg" data-slick-index="0"
+                                             data-thumb="/template/images/product-detail-01.jpg" data-slick-index="0"
                                              aria-hidden="false"
                                              style="width: 513px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;"
                                              tabindex="0" role="tabpanel" id="slick-slide10"
@@ -53,7 +53,7 @@
                                                 <img src="{{ $product->thumb }}" alt="IMG-PRODUCT">
 
                                                 <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
-                                                   href="images/product-detail-01.jpg" tabindex="0">
+                                                   href="{{ $product->thumb }}" tabindex="0">
                                                     <i class="fa fa-expand"></i>
                                                 </a>
                                             </div>
@@ -240,7 +240,7 @@
                                         <!-- Review -->
                                         <div class="flex-w flex-t p-b-68">
                                             <div class="wrap-pic-s size-109 bor0 of-hidden m-r-18 m-t-6">
-                                                <img src="images/avatar-01.jpg" alt="AVATAR">
+                                                <img src="/template/images/avatar-01.jpg" alt="AVATAR">
                                             </div>
 
                                             <div class="size-207">

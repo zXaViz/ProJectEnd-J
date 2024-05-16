@@ -1,5 +1,5 @@
 @extends('admin.main')
 
 @section('content')
-    Nội dung
+    Chào Mừng đến trang ADMIN
 @endsection

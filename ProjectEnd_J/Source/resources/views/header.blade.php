@@ -7,8 +7,8 @@
             <nav class="limiter-menu-desktop container">
 
                 <!-- Logo desktop -->
-                <a href="#" class="logo">
-                    <img src="/template/images/icons/logo-01.png" alt="IMG-LOGO">
+                <a href="/" class="logo">
+                    <img src="/template/images/icons/logo-DCJ.png" alt="IMG-LOGO">
                 </a>
 
                 <!-- Menu desktop -->
@@ -19,7 +19,7 @@
                         {!! $menusHtml !!}
 
                         <li>
-                            <a href="contact.html">Liên Hệ</a>
+                            <a href="/contact.html">Liên Hệ</a>
                         </li>
                     </ul>
                 </div>
