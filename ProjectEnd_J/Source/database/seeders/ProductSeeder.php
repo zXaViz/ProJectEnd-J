@@ -272,7 +272,7 @@ class ProductSeeder extends Seeder
             'content' => 'Tai nghe Bluetooth True Wireless AVA+ Buds Life Air 3',
             'menu_id' => '3',
             'price' => '450000',
-            'price_sale' => '',
+            'price_sale' => '0',
             'active' => '1',
             'thumb' => '/template/images/tai-nghe-bluetooth-true-wireless-ava-buds-life-air-3-1.jpg',
         ]);
@@ -294,7 +294,7 @@ class ProductSeeder extends Seeder
             'content' => 'Tai nghe Bluetooth True Wireless Baseus Bowie E11',
             'menu_id' => '3',
             'price' => '320000',
-            'price_sale' => '',
+            'price_sale' => '0',
             'active' => '1',
             'thumb' => '/template/images/tai-nghe-bluetooth-true-wireless-baseus-bowie-e11-hong-1.jpg',
         ]);
@@ -305,7 +305,7 @@ class ProductSeeder extends Seeder
             'content' => 'Tai nghe Bluetooth True Wireless AVA+ Go P210 ',
             'menu_id' => '3',
             'price' => '160000',
-            'price_sale' => '',
+            'price_sale' => '0',
             'active' => '1',
             'thumb' => '/template/images/tai-nghe-bluetooth-true-wireless-ava-go-p210-den-1-1.jpg',
         ]);
@@ -327,7 +327,7 @@ class ProductSeeder extends Seeder
             'content' => 'Camera IP 360 Độ 2MP TP-Link Tapo TC70',
             'menu_id' => '3',
             'price' => '430000',
-            'price_sale' => '',
+            'price_sale' => '0',
             'active' => '1',
             'thumb' => '/template/images/camera-ip-360-do-1080p-tp-link-tapo-tc70-trang-2-org.jpg',
         ]);
@@ -338,20 +338,20 @@ class ProductSeeder extends Seeder
             'content' => 'Camera IP 360 Độ 2MP TIANDY TC-H322N',
             'menu_id' => '3',
             'price' => '430000',
-            'price_sale' => '',
+            'price_sale' => '0',
             'active' => '1',
-            'thumb' => '/template/images/tai-nghe-bluetooth-true-wireless-soundpeats-gofree-2-open-ear-1.jpg',
+            'thumb' => '/template/images/camera-ip-360-do-2mp-tiandy-tc-h322n-1.jpg',
         ]);
         DB::table('products')->insert([
-            'id' => '27',
-            'name' => 'Tai nghe Bluetooth True Wireless Soundpeats GoFree 2 Open - Ear',
-            'description' => 'Tai nghe Bluetooth True Wireless Soundpeats GoFree 2 Open - Ear',
-            'content' => 'Tai nghe Bluetooth True Wireless Soundpeats GoFree 2 Open - Ear',
+            'id' => '30',
+            'name' => 'Camera IP Ngoài Trời 2MP IMOU Bullet 2C F22P',
+            'description' => 'Camera IP Ngoài Trời 2MP IMOU Bullet 2C F22P',
+            'content' => 'Camera IP Ngoài Trời 2MP IMOU Bullet 2C F22P',
             'menu_id' => '4',
-            'price' => '1190000',
-            'price_sale' => '50000',
+            'price' => '430000',
+            'price_sale' => '0',
             'active' => '1',
-            'thumb' => '/template/images/tai-nghe-bluetooth-true-wireless-soundpeats-gofree-2-open-ear-1.jpg',
+            'thumb' => '/template/images/camera-ip-ngoai-troi-1080p-imou-bullet-2c-f22p-1-1.jpg',
         ]);
 
 
