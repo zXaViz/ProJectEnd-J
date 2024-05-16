@@ -37,10 +37,10 @@
             @endforeach
         </tbody>
     </table>
-
-    <div class="card-footer clearfix">
-        {!! $products->links() !!}
-    </div>
+    <div style="text-align: center;" class="link">{{ $products->links() }}</div>
+{{--    <div class="card-footer clearfix">--}}
+{{--        {!! $products->links() !!}--}}
+{{--    </div>--}}
 @endsection
 
 

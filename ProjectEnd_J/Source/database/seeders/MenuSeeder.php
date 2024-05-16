@@ -70,12 +70,40 @@ class MenuSeeder extends Seeder
             'active' => '1',
         ]);
         DB::table('menus')->insert([
+            'id' => '12',
+            'name' => 'Iphone',
+            'parent_id' => '1',
+            'description' => 'Iphone',
+            'content' => 'Iphone',
+            'slug' => 'Iphone',
+            'active' => '1',
+        ]);
+        DB::table('menus')->insert([
+            'id' => '13',
+            'name' => 'Oppo',
+            'parent_id' => '1',
+            'description' => 'Oppo',
+            'content' => 'Oppo',
+            'slug' => 'Oppo',
+            'active' => '1',
+        ]);
+
+        DB::table('menus')->insert([
             'id' => '22',
             'name' => 'Laptop MSI',
             'parent_id' => '2',
             'description' => 'Laptop MSI',
             'content' => 'Laptop MSI',
             'slug' => 'Laptop MSI',
+            'active' => '1',
+        ]);
+        DB::table('menus')->insert([
+            'id' => '23',
+            'name' => 'Laptop Dell',
+            'parent_id' => '2',
+            'description' => 'Laptop Dell',
+            'content' => 'Laptop Dell',
+            'slug' => 'Laptop Dell',
             'active' => '1',
         ]);
         DB::table('menus')->insert([

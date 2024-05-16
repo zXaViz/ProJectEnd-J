@@ -78,7 +78,7 @@ class ProductSeeder extends Seeder
             'name' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
             'description' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
             'content' => 'Mẫu laptop học tập - văn phòng được thiết kế dành riêng cho người đi làm cũng như học sinh, sinh viên với thiết kế nhỏ gọn, tinh tế cùng hiệu năng mạnh mẽ với AMD Ryzen 7 7000 series đáp ứng mọi tác vụ hằng ngày. Laptop MSI Modern 15 B7M R7 7730U (238VN) sở hữu một mức giá lý tưởng chắc chắn sẽ là sản phẩm bạn không nên bỏ qua.',
-            'menu_id' => '22',
+            'menu_id' => '11',
             'price' => '16990000',
             'price_sale' => '0',
             'active' => '1',
@@ -87,19 +87,52 @@ class ProductSeeder extends Seeder
 
         ///
         DB::table('products')->insert([
-            'id' => '6312312',
-            'name' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
-            'description' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
-            'content' => 'Mẫu laptop học tập - văn phòng được thiết kế dành riêng cho người đi làm cũng như học sinh, sinh viên với thiết kế nhỏ gọn, tinh tế cùng hiệu năng mạnh mẽ với AMD Ryzen 7 7000 series đáp ứng mọi tác vụ hằng ngày. Laptop MSI Modern 15 B7M R7 7730U (238VN) sở hữu một mức giá lý tưởng chắc chắn sẽ là sản phẩm bạn không nên bỏ qua.',
-            'menu_id' => '22',
-            'price' => '16990000',
+            'id' => '7',
+            'name' => 'Điện thoại iPhone 15 Pro Max 256GB ',
+            'description' => 'Điện thoại iPhone 15 Pro Max 256GB ',
+            'content' => 'Điện thoại iPhone 15 Pro Max 256GB ',
+            'menu_id' => '12',
+            'price' => '34990000',
             'price_sale' => '0',
             'active' => '1',
-            'thumb' => '/template/images/vi-vn-msi-modern-15-b7m-r7-238vn-slider-1.jpg',
+            'thumb' => '/template/images/iphone-15-pro-max-blue-1-1.jpg',
         ]);
 
         DB::table('products')->insert([
-            'id' => '321316',
+            'id' => '8',
+            'name' => 'Điện thoại iPhone 13 128GB',
+            'description' => 'Điện thoại iPhone 13 128GB',
+            'content' => 'Điện thoại iPhone 13 128GB',
+            'menu_id' => '12',
+            'price' => '17790000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/iphone-13-xanh-glr-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '9',
+            'name' => 'Điện thoại OPPO Reno11 F 5G Tím',
+            'description' => 'Điện thoại OPPO Reno11 F 5G Tím',
+            'content' => 'OPPO Reno11 F 5G là một chiếc điện thoại tầm trung mới được OPPO ra mắt trong thời gian gần đây. Máy sở hữu nhiều ưu điểm nổi bật như thiết kế trẻ trung, màn hình đẹp, hiệu năng mạnh mẽ nhờ chip Dimensity 7050 5G, hứa hẹn mang đến trải nghiệm tốt khi sử dụng.',
+            'menu_id' => '13',
+            'price' => '8990000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/oppo-reno-11f-tim-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '10',
+            'name' => 'Laptop Dell Inspiron 15 3520 i5 1235U/16GB/512GB/120Hz/OfficeHS/KYHD/Win11 (25P231)',
+            'description' => 'Laptop Dell Inspiron 15 3520 i5 1235U/16GB/512GB/120Hz/OfficeHS/KYHD/Win11 (25P231)',
+            'content' => 'Mẫu laptop học tập - văn phòng được thiết kế dành riêng cho người đi làm cũng như học sinh, sinh viên với thiết kế nhỏ gọn, tinh tế cùng hiệu năng mạnh mẽ với AMD Ryzen 7 7000 series đáp ứng mọi tác vụ hằng ngày. Laptop MSI Modern 15 B7M R7 7730U (238VN) sở hữu một mức giá lý tưởng chắc chắn sẽ là sản phẩm bạn không nên bỏ qua.',
+            'menu_id' => '22',
+            'price' => '16990000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/vi-vn-msi-modern-15-b7m-r7-238vn-slider-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '11',
             'name' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
             'description' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
             'content' => 'Mẫu laptop học tập - văn phòng được thiết kế dành riêng cho người đi làm cũng như học sinh, sinh viên với thiết kế nhỏ gọn, tinh tế cùng hiệu năng mạnh mẽ với AMD Ryzen 7 7000 series đáp ứng mọi tác vụ hằng ngày. Laptop MSI Modern 15 B7M R7 7730U (238VN) sở hữu một mức giá lý tưởng chắc chắn sẽ là sản phẩm bạn không nên bỏ qua.',
@@ -110,7 +143,7 @@ class ProductSeeder extends Seeder
             'thumb' => '/template/images/vi-vn-msi-modern-15-b7m-r7-238vn-slider-1.jpg',
         ]);
         DB::table('products')->insert([
-            'id' => '312316',
+            'id' => '12',
             'name' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
             'description' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
             'content' => 'Mẫu laptop học tập - văn phòng được thiết kế dành riêng cho người đi làm cũng như học sinh, sinh viên với thiết kế nhỏ gọn, tinh tế cùng hiệu năng mạnh mẽ với AMD Ryzen 7 7000 series đáp ứng mọi tác vụ hằng ngày. Laptop MSI Modern 15 B7M R7 7730U (238VN) sở hữu một mức giá lý tưởng chắc chắn sẽ là sản phẩm bạn không nên bỏ qua.',
@@ -121,40 +154,7 @@ class ProductSeeder extends Seeder
             'thumb' => '/template/images/vi-vn-msi-modern-15-b7m-r7-238vn-slider-1.jpg',
         ]);
         DB::table('products')->insert([
-            'id' => '6323213',
-            'name' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
-            'description' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
-            'content' => 'Mẫu laptop học tập - văn phòng được thiết kế dành riêng cho người đi làm cũng như học sinh, sinh viên với thiết kế nhỏ gọn, tinh tế cùng hiệu năng mạnh mẽ với AMD Ryzen 7 7000 series đáp ứng mọi tác vụ hằng ngày. Laptop MSI Modern 15 B7M R7 7730U (238VN) sở hữu một mức giá lý tưởng chắc chắn sẽ là sản phẩm bạn không nên bỏ qua.',
-            'menu_id' => '22',
-            'price' => '16990000',
-            'price_sale' => '0',
-            'active' => '1',
-            'thumb' => '/template/images/vi-vn-msi-modern-15-b7m-r7-238vn-slider-1.jpg',
-        ]);
-        DB::table('products')->insert([
-            'id' => '632',
-            'name' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
-            'description' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
-            'content' => 'Mẫu laptop học tập - văn phòng được thiết kế dành riêng cho người đi làm cũng như học sinh, sinh viên với thiết kế nhỏ gọn, tinh tế cùng hiệu năng mạnh mẽ với AMD Ryzen 7 7000 series đáp ứng mọi tác vụ hằng ngày. Laptop MSI Modern 15 B7M R7 7730U (238VN) sở hữu một mức giá lý tưởng chắc chắn sẽ là sản phẩm bạn không nên bỏ qua.',
-            'menu_id' => '22',
-            'price' => '16990000',
-            'price_sale' => '0',
-            'active' => '1',
-            'thumb' => '/template/images/vi-vn-msi-modern-15-b7m-r7-238vn-slider-1.jpg',
-        ]);
-        DB::table('products')->insert([
-            'id' => '6223',
-            'name' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
-            'description' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
-            'content' => 'Mẫu laptop học tập - văn phòng được thiết kế dành riêng cho người đi làm cũng như học sinh, sinh viên với thiết kế nhỏ gọn, tinh tế cùng hiệu năng mạnh mẽ với AMD Ryzen 7 7000 series đáp ứng mọi tác vụ hằng ngày. Laptop MSI Modern 15 B7M R7 7730U (238VN) sở hữu một mức giá lý tưởng chắc chắn sẽ là sản phẩm bạn không nên bỏ qua.',
-            'menu_id' => '22',
-            'price' => '16990000',
-            'price_sale' => '0',
-            'active' => '1',
-            'thumb' => '/template/images/vi-vn-msi-modern-15-b7m-r7-238vn-slider-1.jpg',
-        ]);
-        DB::table('products')->insert([
-            'id' => '62',
+            'id' => '13',
             'name' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
             'description' => 'Laptop MSI Modern 15 B7M R7 7730U/16GB/512GB/Win11 (238VN)',
             'content' => 'Mẫu laptop học tập - văn phòng được thiết kế dành riêng cho người đi làm cũng như học sinh, sinh viên với thiết kế nhỏ gọn, tinh tế cùng hiệu năng mạnh mẽ với AMD Ryzen 7 7000 series đáp ứng mọi tác vụ hằng ngày. Laptop MSI Modern 15 B7M R7 7730U (238VN) sở hữu một mức giá lý tưởng chắc chắn sẽ là sản phẩm bạn không nên bỏ qua.',
