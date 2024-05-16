@@ -347,7 +347,7 @@ class ProductSeeder extends Seeder
             'name' => 'Camera IP Ngoài Trời 2MP IMOU Bullet 2C F22P',
             'description' => 'Camera IP Ngoài Trời 2MP IMOU Bullet 2C F22P',
             'content' => 'Camera IP Ngoài Trời 2MP IMOU Bullet 2C F22P',
-            'menu_id' => '4',
+            'menu_id' => '3',
             'price' => '430000',
             'price_sale' => '0',
             'active' => '1',
