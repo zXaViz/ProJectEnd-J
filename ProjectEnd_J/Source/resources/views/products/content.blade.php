@@ -53,7 +53,7 @@
                                                 <img src="{{ $product->thumb }}" alt="IMG-PRODUCT">
 
                                                 <a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04"
-                                                   href="/template/images/product-detail-01.jpg" tabindex="0">
+                                                   href="{{ $product->thumb }}" tabindex="0">
                                                     <i class="fa fa-expand"></i>
                                                 </a>
                                             </div>
