@@ -153,11 +153,6 @@
                         </li>
 
                         <li class="nav-item p-b-10">
-                            <a class="nav-link" data-toggle="tab" href="#information" role="tab">Additional
-                                information</a>
-                        </li>
-
-                        <li class="nav-item p-b-10">
                             <a class="nav-link" data-toggle="tab" href="#reviews" role="tab">Reviews (1)</a>
                         </li>
                     </ul>

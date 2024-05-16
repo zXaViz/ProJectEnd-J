@@ -353,7 +353,342 @@ class ProductSeeder extends Seeder
             'active' => '1',
             'thumb' => '/template/images/camera-ip-ngoai-troi-1080p-imou-bullet-2c-f22p-1-1.jpg',
         ]);
+        //
+        DB::table('products')->insert([
+            'id' => '31',
+            'name' => 'Tai nghe Bluetooth AirPods Pro Gen 2 MagSafe Charge (USB-C) Apple MTJV3',
+            'description' => 'Tai nghe Bluetooth AirPods Pro Gen 2 MagSafe Charge (USB-C) Apple MTJV3',
+            'content' => 'Tai nghe Bluetooth AirPods Pro Gen 2 MagSafe Charge (USB-C) Apple MTJV3',
+            'menu_id' => '33',
+            'price' => '6200000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/tai-nghe-bluetooth-airpods-pro-2nd-gen-usb-c-charge-apple-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '32',
+            'name' => 'Tai nghe Bluetooth AirPods 3 Lightning Charge Apple MPNY3',
+            'description' => 'Tai nghe Bluetooth AirPods 3 Lightning Charge Apple MPNY3',
+            'content' => 'Tai nghe Bluetooth AirPods 3 Lightning Charge Apple MPNY3',
+            'menu_id' => '33',
+            'price' => '4190000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/tai-nghe-bluetooth-airpods-3-lightning-charge-apple-mpny3-trang-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '33',
+            'name' => 'Tai nghe Bluetooth AirPods Pro (2nd Gen) MagSafe Charge (Lightning) Apple MQD83',
+            'description' => 'Tai nghe Bluetooth AirPods Pro (2nd Gen) MagSafe Charge (Lightning) Apple MQD83',
+            'content' => 'Tai nghe Bluetooth AirPods Pro (2nd Gen) MagSafe Charge (Lightning) Apple MQD83',
+            'menu_id' => '33',
+            'price' => '5390000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/airpods-pro-2nd-generation-0.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '34',
+            'name' => 'Tai nghe Bluetooth AirPods 3 Lightning Charge Apple MPNY3',
+            'description' => 'Tai nghe Bluetooth AirPods 3 Lightning Charge Apple MPNY3',
+            'content' => 'Tai nghe Bluetooth AirPods 3 Lightning Charge Apple MPNY3',
+            'menu_id' => '33',
+            'price' => '4190000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/tai-nghe-bluetooth-airpods-3-lightning-charge-apple-mpny3-trang-1 (1).jpg',
+        ]);
+        //
+        DB::table('products')->insert([
+            'id' => '35',
+            'name' => 'Đồng hồ thông minh Apple Watch SE 2023 GPS 40mm',
+            'description' => 'Đồng hồ thông minh Apple Watch SE 2023 GPS 40mm',
+            'content' => 'Đồng hồ thông minh Apple Watch SE 2023 GPS 40mm',
+            'menu_id' => '5',
+            'price' => '5990000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/apple-watch-se-2023-40mm-vien-nhom-day-silicone-xanh-duong-nhat-1-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '36',
+            'name' => 'Đồng hồ thông minh Apple Watch Series 9 GPS 41mm',
+            'description' => 'Đồng hồ thông minh Apple Watch Series 9 GPS 41mm',
+            'content' => 'Đồng hồ thông minh Apple Watch Series 9 GPS 41mm',
+            'menu_id' => '5',
+            'price' => '9390000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/apple-watch-s9-41mm-vien-nhom-day-silicone-1.jpg',
+        ]);
 
+        DB::table('products')->insert([
+            'id' => '37',
+            'name' => 'Đồng hồ thông minh Apple Watch Ultra 2 GPS + Cellular 49mm viền Titanium dây Ocean',
+            'description' => 'Đồng hồ thông minh Apple Watch Ultra 2 GPS + Cellular 49mm viền Titanium dây Ocean',
+            'content' => 'Đồng hồ thông minh Apple Watch Ultra 2 GPS + Cellular 49mm viền Titanium dây Ocean',
+            'menu_id' => '5',
+            'price' => '20990000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/apple-watch-ultra-lte-49mm-vien-titanium-day-ocean-trang-1-2.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '38',
+            'name' => 'Đồng hồ thông minh Apple Watch Series 9 GPS 41mm viền nhôm dây vải',
+            'description' => 'Đồng hồ thông minh Apple Watch Series 9 GPS 41mm viền nhôm dây vải',
+            'content' => 'Đồng hồ thông minh Apple Watch Series 9 GPS 41mm viền nhôm dây vải',
+            'menu_id' => '5',
+            'price' => '9790000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/apple-watch-s9-41mm-vien-nhom-day-vai-xanh-duong-nhat-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '39',
+            'name' => 'Đồng hồ thông minh Apple Watch Series 9 GPS 41mm viền nhôm dây vải',
+            'description' => 'Đồng hồ thông minh Apple Watch Series 9 GPS 41mm viền nhôm dây vải',
+            'content' => 'Đồng hồ thông minh Apple Watch Series 9 GPS 41mm viền nhôm dây vải',
+            'menu_id' => '5',
+            'price' => '9790000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/apple-watch-s9-41mm-vien-nhom-day-vai-xanh-duong-nhat-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '40',
+            'name' => 'Đồng hồ thông minh Apple Watch Series 9 GPS + Cellular 41mm viền nhôm dây thể thao',
+            'description' => 'Đồng hồ thông minh Apple Watch Series 9 GPS + Cellular 41mm viền nhôm dây thể thao',
+            'content' => 'Đồng hồ thông minh Apple Watch Series 9 GPS + Cellular 41mm viền nhôm dây thể thao',
+            'menu_id' => '5',
+            'price' => '9790000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/apple-watch-s9-lte-41mm-vien-nhom-day-silicone-xanh-duong-nhat-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '41',
+            'name' => 'Đồng hồ thông minh Apple Watch SE 2023 GPS + Cellular 40mm viền nhôm dây thể thao',
+            'description' => 'Đồng hồ thông minh Apple Watch SE 2023 GPS + Cellular 40mm viền nhôm dây thể thao',
+            'content' => 'Đồng hồ thông minh Apple Watch SE 2023 GPS + Cellular 40mm viền nhôm dây thể thao',
+            'menu_id' => '5',
+            'price' => '7390000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/apple-watch-se-lte-2023-40mm-vien-nhom-day-silicone-trang-starlight-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '42',
+            'name' => 'Đồng hồ thông minh Apple Watch Series 8 GPS 41mm viền nhôm dây thể thao',
+            'description' => 'Đồng hồ thông minh Apple Watch Series 8 GPS 41mm viền nhôm dây thể thao',
+            'content' => 'Đồng hồ thông minh Apple Watch Series 8 GPS 41mm viền nhôm dây thể thao',
+            'menu_id' => '5',
+            'price' => '8990000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/apple-watch-s8-41mm-trang-kem-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '43',
+            'name' => 'Đồng hồ thông minh Apple Watch SE 2023 GPS + Cellular 40mm viền nhôm dây vải ',
+            'description' => 'Đồng hồ thông minh Apple Watch SE 2023 GPS + Cellular 40mm viền nhôm dây vải ',
+            'content' => 'Đồng hồ thông minh Apple Watch SE 2023 GPS + Cellular 40mm viền nhôm dây vải ',
+            'menu_id' => '5',
+            'price' => '7490000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/apple-watch-se-lte-2023-40mm-vien-nhom-day-vai-trang-starlight-1.jpg',
+        ]);
+        //
+        DB::table('products')->insert([
+            'id' => '44',
+            'name' => 'Điện thoại Masstel FAMI 60 ',
+            'description' => 'Masstel Fami 60 là chiếc điện thoại phổ thông dành tặng riêng cho người cao tuổi với thiết kế gọn gàng, màn hình rõ nét và cụm loa ngoài cực lớn cùng pin “siêu trâu”, hỗ trợ công nghệ đàm thoại LTE 4G, hứa hẹn sẽ đáp ứng hoàn hảo nhu cầu giải trí cơ bản, liên lạc của bạn.',
+            'content' => 'Masstel Fami 60 là chiếc điện thoại phổ thông dành tặng riêng cho người cao tuổi với thiết kế gọn gàng, màn hình rõ nét và cụm loa ngoài cực lớn cùng pin “siêu trâu”, hỗ trợ công nghệ đàm thoại LTE 4G, hứa hẹn sẽ đáp ứng hoàn hảo nhu cầu giải trí cơ bản, liên lạc của bạn.',
+            'menu_id' => '1',
+            'price' => '700000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/vi-vn-masstel-fami-60-tinhnang-slider.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '45',
+            'name' => 'Điện thoại Masstel Lux 10',
+            'description' => 'Masstel Lux 10 - mẫu điện thoại vừa được ra mắt tại thị trường Việt Nam vào tháng 12/2022, máy được nhà sản xuất định hình là một chiếc điện thoại phổ thông với chức năng đáp ứng các tác vụ nghe gọi là chủ yếu. Điện thoại nổi bật với viên pin lớn và hỗ trợ mạng di động 4G VoLTE tiên tiến.',
+            'content' => 'Masstel Lux 10 - mẫu điện thoại vừa được ra mắt tại thị trường Việt Nam vào tháng 12/2022, máy được nhà sản xuất định hình là một chiếc điện thoại phổ thông với chức năng đáp ứng các tác vụ nghe gọi là chủ yếu. Điện thoại nổi bật với viên pin lớn và hỗ trợ mạng di động 4G VoLTE tiên tiến.',
+            'menu_id' => '1',
+            'price' => '700000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/masstel-lux-20-tong-quan-1020x569.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '46',
+            'name' => 'Điện thoại Masstel IZI T6 4G ',
+            'description' => 'Trong thời đại smartphone ngày càng trở nên phổ biến, Masstel IZI T6 4G như làn gió mới cho những ai mong muốn trở về với sự đơn giản, tiện ích trong sử dụng hằng ngày. Điện thoại là sự lựa chọn lý tưởng cho nhóm khách hàng có nhu cầu cơ bản như nghe gọi và nhắn tin, đặc biệt phù hợp với người lớn tuổi.',
+            'content' => 'Trong thời đại smartphone ngày càng trở nên phổ biến, Masstel IZI T6 4G như làn gió mới cho những ai mong muốn trở về với sự đơn giản, tiện ích trong sử dụng hằng ngày. Điện thoại là sự lựa chọn lý tưởng cho nhóm khách hàng có nhu cầu cơ bản như nghe gọi và nhắn tin, đặc biệt phù hợp với người lớn tuổi.',
+            'menu_id' => '1',
+            'price' => '700000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/masstel-izi-t6-tong-quan-2048x1144.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '47',
+            'name' => 'Điện thoại Masstel IZI 10 ',
+            'description' => 'Masstel IZI 10 4G là 1 phiên bản "cục gạch" khác của nhà Masstel có tích hợp 4G mang lại trải nghiệm nghe gọi cực tốt, cùng thiết kế thân thiện dễ dùng, có hỗ trợ khe cắm thẻ nhớ và dung lượng pin tốt, rất đáng lựa chọn.',
+            'content' => 'Masstel IZI 10 4G là 1 phiên bản "cục gạch" khác của nhà Masstel có tích hợp 4G mang lại trải nghiệm nghe gọi cực tốt, cùng thiết kế thân thiện dễ dùng, có hỗ trợ khe cắm thẻ nhớ và dung lượng pin tốt, rất đáng lựa chọn.',
+            'menu_id' => '1',
+            'price' => '390000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/Masstel-IZI-10-4G-0601-1020x570.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '48',
+            'name' => 'Điện thoại Nokia 8210 4G',
+            'description' => 'Nokia 8210 4G có lẽ là một lựa chọn phù hợp với những ai cần cho mình một chiếc điện thoại phổ thông phục vụ cho nhu cầu nghe gọi. Máy có giá thành rẻ và vừa có độ bền cao, giúp cho người dùng có thể tiết kiệm được kha khá số tiền bỏ ra ban đầu cũng như không cần quá lo lắng đến vấn đề hỏng hóc trong lúc sử dụng.',
+            'content' => 'Nokia 8210 4G có lẽ là một lựa chọn phù hợp với những ai cần cho mình một chiếc điện thoại phổ thông phục vụ cho nhu cầu nghe gọi. Máy có giá thành rẻ và vừa có độ bền cao, giúp cho người dùng có thể tiết kiệm được kha khá số tiền bỏ ra ban đầu cũng như không cần quá lo lắng đến vấn đề hỏng hóc trong lúc sử dụng.',
+            'menu_id' => '1',
+            'price' => '1590000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/nokia-8210-4g-tong-quan-1020x570.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '49',
+            'name' => 'Điện thoại Nokia 215 4G',
+            'description' => 'Nokia 215 chiếc điện thoại phổ thông ngoài các chức năng cơ bản thì máy đã được nâng cấp với sự hỗ trợ kết nối mạng 4G mang đến nhiều trải nghiệm hơn cho người dùng.
+Thiết kế đơn giản, gọn nhẹ
+Nokia 215 4G sử dụng chất liệu nhựa cho kiểu dáng bền bỉ, các nút cảm ứng mềm lớn, cạnh dễ cầm và mặt lưng cong được thiết kế để vừa vặn hoàn toàn trong tay bạn, cho bạn có được sự thoải mái, tiện lợi nhất.',
+            'content' => 'Điện thoại Nokia 215 4G',
+            'menu_id' => '1',
+            'price' => '990000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/nokia-8210-4g-tong-quan-1020x570.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '50',
+            'name' => 'Điện thoại Nokia 110 4G Pro',
+            'description' => 'Nokia 110 4G Pro là một chiếc điện thoại phổ thông nổi bật, được thiết kế tinh tế và sang trọng. Điện thoại cho khả năng bền bỉ trong thời gian dài khiến bạn cảm thấy yên tâm khi sử dụng. Với việc hỗ trợ công nghệ 4G VoLTE, bạn có thể thực hiện cuộc gọi một cách nhanh chóng và ổn định hơn.',
+            'content' => 'Nokia 110 4G Pro là một chiếc điện thoại phổ thông nổi bật, được thiết kế tinh tế và sang trọng. Điện thoại cho khả năng bền bỉ trong thời gian dài khiến bạn cảm thấy yên tâm khi sử dụng. Với việc hỗ trợ công nghệ 4G VoLTE, bạn có thể thực hiện cuộc gọi một cách nhanh chóng và ổn định hơn.',
+            'menu_id' => '1',
+            'price' => '720000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/nokia-110-4g-pro-slider-1-2-2048x1144.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '51',
+            'name' => 'Điện thoại Mobell F309 4G',
+            'description' => 'Chiếc điện thoại Mobell F309 là sự lựa chọn phù hợp cho khách hàng đang tìm kiếm một thiết bị di động nhỏ gọn để liên lạc, hỗ trợ mạng di động 4G VoLTE và có thể sử dụng hai SIM nano giúp cho nhu cầu liên lạc bằng việc nghe gọi/nhắn tin được đáp ứng tốt.',
+            'content' => 'Điện thoại Mobell F309 4G',
+            'menu_id' => '1',
+            'price' => '700000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/vi-vn-mobell-f309-slider.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '52',
+            'name' => 'Điện thoại Masstel Fami 60S 4G',
+            'description' => 'Điện thoại Masstel Fami 60S 4G',
+            'content' => 'Điện thoại Masstel Fami 60S 4G',
+            'menu_id' => '1',
+            'price' => '720000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/masstel-fami-60s-tongquan-1020x570.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '53',
+            'name' => 'Điện thoại Mobell Rock 4',
+            'description' => 'Điện thoại Mobell Rock 4',
+            'content' => 'Điện thoại Mobell Rock 4G',
+            'menu_id' => '1',
+            'price' => '670000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/mobell-rock-4-1020x570.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '54',
+            'name' => 'Điện thoại Itel it9010',
+            'description' => 'Điện thoại Itel it9010',
+            'content' => 'Điện thoại Itel it9010',
+            'menu_id' => '1',
+            'price' => '420000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/Itelit9010-1020x570.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '55',
+            'name' => 'Laptop Asus Vivobook 15 OLED ',
+            'description' => 'Laptop Asus Vivobook 15 OLED A1505ZA i5 12500H (L1337W) có không gian hiển thị rộng rãi, sắc nét với màn hình 15.6 inch OLED cùng nhiều hiệu năng mạnh mẽ khác. Đây chắc hẳn là chiếc laptop đồ họa - kỹ thuật phù hợp với những bạn đang có đòi hỏi về đồ họa hay các công việc sáng tạo.',
+            'content' => 'Laptop Asus Vivobook 15 OLED',
+            'menu_id' => '2',
+            'price' => '16490000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/vi-vn-asus-vivobook-15-oled-a1505za-i5-l1337w-slider-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '56',
+            'name' => 'Laptop Asus Vivobook Go 15 ',
+            'description' => 'Laptop Asus Vivobook Go 15 E1504FA R5 7520U (NJ776W) mang phong cách thiết kế sang trọng, hiệu năng mạnh mẽ cùng tính đa năng sử dụng, chắc chắn sẽ giúp bạn đáp ứng mọi tác vụ công việc và học tập hàng ngày một cách hiệu quả và chuyên nghiệp nhất.',
+            'content' => 'Laptop Asus Vivobook Go 15',
+            'menu_id' => '2',
+            'price' => '12490000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/vi-vn-asus-vivobook-go-15-e1504fa-r5-nj776w-slider-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '57',
+            'name' => 'Laptop Asus TUF Gaming A15 ',
+            'description' => 'Một mẫu laptop chiến game đến từ thương hiệu Asus vừa được lên kệ tại Thế Giới Di Động, sở hữu những thông số cấu hình vượt trội với AMD Ryzen 5 dòng HS mạnh mẽ, card rời RTX 2050 và có một mức giá cân đối. Laptop Asus TUF Gaming A15 FA506NF R5 7535HS (HN012W) chắc chắn sẽ là công cụ tuyệt vời để thoả mãn mọi nhu cầu giải trí của anh em.',
+            'content' => 'Laptop Asus TUF Gaming A15',
+            'menu_id' => '2',
+            'price' => '17490000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/vi-vn-asus-tuf-gaming-a15-fa506nf-r5-hn012w-slider-1.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '58',
+            'name' => 'Laptop Asus Zenbook 14 OLED',
+            'description' => 'Mở đầu cho kỷ nguyên laptop mới, hiện đại, thông minh, laptop Asus Zenbook 14 OLED UX3405MA Ultra 5 (PP151W) sở hữu con chip Intel Meteor Lake hoàn toàn mới, được tích hợp hàng loạt những tính năng AI hữu ích, màn hình chuẩn sắc nét. Mẫu sản phẩm này chắc chắn sẽ nâng tầm đáng kể cho phong cách làm việc của bạn.',
+            'content' => 'Laptop Asus Zenbook 14 OLED',
+            'menu_id' => '2',
+            'price' => '27990000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/vi-vn-asus-zenbook-14-oled-ux3405ma-ultra-5-pp151w-slider-2.jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '59',
+            'name' => 'Laptop Asus Zenbook 14 Flip OLED',
+            'description' => 'Laptop Asus Zenbook 14 Flip OLED UP3404VA i5 1340P (KN038W) - một trong những sản phẩm mới nhất của Asus đã có mặt tại Thế Giới Di Động, được trang bị bộ vi xử lý Intel thế hệ 13 tân tiến và màn hình OLED 14 inch cảm ứng đa điểm với thiết kế 2 trong 1, cho phép bạn sử dụng máy như một chiếc laptop hoặc tablet',
+            'content' => 'Laptop Asus Zenbook 14 Flip OLED',
+            'menu_id' => '2',
+            'price' => '24990000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/vi-vn-asus-zenbook-14-flip-oled-up3404va-i5-kn038w--(2).jpg',
+        ]);
+        DB::table('products')->insert([
+            'id' => '60',
+            'name' => 'Laptop Asus Gaming ROG Zephyrus G16',
+            'description' => 'Mẫu máy xách tay tương lai cho mọi nhu cầu của bạn, laptop Asus Gaming ROG Zephyrus G16 GU605MV Ultra 9 185H (QR135W) với ngoại hình chuẩn cao cấp như những mẫu ultrabook, cấu hình khủng từ con chip Intel Core Ultra 9, card rời RTX 40 series,... đáp ứng các tựa game khủng, đồ hoạ hay thiết kế web đều trong tầm tay.',
+            'content' => 'Laptop Asus Gaming ROG Zephyrus G16',
+            'menu_id' => '2',
+            'price' => '63990000',
+            'price_sale' => '0',
+            'active' => '1',
+            'thumb' => '/template/images/vi-vn-asus-gaming-rog-zephyrus-g16-gu605mv-ultra-9-qr135w-slider-1.jpg',
+        ]);
 
 
 
