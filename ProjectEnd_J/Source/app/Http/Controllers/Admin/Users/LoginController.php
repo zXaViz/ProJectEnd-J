@@ -3,12 +3,18 @@
 namespace App\Http\Controllers\Admin\Users;
 
 use App\Http\Controllers\Controller;
+use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
+use App\Models\User;
+use App\Models\Slider;
+use App\Models\Menu;
+
 
 class LoginController extends Controller
 {
+    //Đăng nhập thông tin
     public function index()
     {
         return view('admin.users.login', [
@@ -18,20 +24,48 @@ class LoginController extends Controller
 
     public function store(Request $request)
     {
-        $this->validate($request, [
-            'email' => 'required|email:filter',
-            'password' => 'required'
+        $request->validate([
+            'email' => 'required',
+            'password' => 'required',
+
         ]);
+        $credentials = $request->only('email', 'password');
 
-        if (Auth::attempt([
-                'email' => $request->input('email'),
-                'password' => $request->input('password')
-            ], $request->input('remember'))) {
+        if (Auth::attempt($credentials)) {
+            $users = User::all();
+            $sliders = Slider::all();
+            $menus = Menu::all();
+            $products  = Product::all();
+            $title = "Nhom DC J";
+            foreach ($users as $user) {
+                if ($user->email == $request['email']) {
+                    // Quyen truy cap nguoi ban hang
+                    if ($user->role == '2') {
+                        Session()->flash('success', 'Admin. Login successfully');
+                        return view('admin.home', [
+                            'title' => 'Trang Quản Trị Admin'
+                        ]);
 
-            return redirect()->route('admin');
+                        // return redirect()->route('seller_home');
+                    }
+                    // Quyen truy cap gnuoi dung
+                    else {
+                       
+                        Session()->flash('success', 'Login successfully');
+                       
+                        return view('home', compact('sliders', 'menus', 'products', 'title'));
+                    }
+                }   
+            }
         }
 
-        Session::flash('error', 'Email hoặc Password không đúng');
-        return redirect()->back();
+        return redirect('login');
+    }
+    //  Logout
+    public function logout(){
+        Session::flush();
+        Auth::logout();
+
+        return redirect()->route('login');
     }
 }

@@ -101,8 +101,6 @@ class CartService
 
             Session::forget('carts');
         } catch (\Exception $err) {
-            DB::rollBack();
-            Session::flash('error', 'Đặt Hàng Lỗi, Vui lòng thử lại sau');
             return false;
         }
 

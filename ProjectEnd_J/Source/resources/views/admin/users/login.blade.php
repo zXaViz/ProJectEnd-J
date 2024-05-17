@@ -5,8 +5,8 @@
 </head>
 <body class="hold-transition login-page">
         <div class="login-box">
-        <div class="login-logo">
-            <a href="#"><b>Admin</b></a>
+        <div class="login-logo ">
+            <a href="#" style="font-weight: bold" class="text-danger"><b>ECOMMERCE J</b></a>
         </div>
         <!-- /.login-logo -->
         <div class="card">
@@ -41,9 +41,12 @@
                         </div>
                         <!-- /.col -->
                         <div class="col-4">
-                            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                            <button type="submit" class="btn btn-danger btn-block">Sign In</button>
                         </div>
                         <!-- /.col -->
+                        <div class="col-7">
+                            <a href="{{route('register')}}" style="color: gray">Register account</a>
+                        </div>
                     </div>
                     @csrf
                 </form>
