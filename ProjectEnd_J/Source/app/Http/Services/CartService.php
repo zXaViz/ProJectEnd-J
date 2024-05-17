@@ -101,8 +101,6 @@ class CartService
 
             Session::forget('carts');
         } catch (\Exception $err) {
-            DB::rollBack();
-            Session::flash('error', 'Đặt Hàng Lỗi, Vui lòng thử lại sau');
             return false;
         }
 
@@ -132,7 +130,7 @@ class CartService
 
     public function getCustomer()
     {
-        return Customer::orderByDesc('id')->paginate(10);
+        return Customer::orderByDesc('id')->paginate(15);
     }
 
     public function getProductForCart($customer)

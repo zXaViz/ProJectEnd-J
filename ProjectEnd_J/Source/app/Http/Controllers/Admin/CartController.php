@@ -33,4 +33,16 @@ class CartController extends Controller
             'carts' => $carts
         ]);
     }
+    public function destroy(Request $customer)
+    {
+        $result = $this->customer->delete($request);
+        if ($result) {
+            return response()->json([
+                'error' => false,
+                'message' => 'Xóa thành công'
+            ]);
+        }
+
+        return response()->json([ 'error' => true ]);
+    }
 }
