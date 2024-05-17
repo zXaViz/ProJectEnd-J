@@ -73,7 +73,7 @@
     <footer class="main-footer">
         <div class="float-right d-none d-sm-block">
             <b>
-                <a href="admin/users/login">LOG OUT</a>
+                <a href="{{route('admin/logout')}}">LOG OUT</a>
             </b>
         </div>
         <strong><a href="/">HOME</a></strong>

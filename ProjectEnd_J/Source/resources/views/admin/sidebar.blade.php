@@ -124,6 +124,15 @@
 
                     </ul>
                 </li>
+                <li class="nav-item">
+                    <a href="/admin/users/list_user" class="nav-link">
+                        <i class="nav-icon fas fa-user"></i>
+                        <p> Danh sách người dùng
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                    
+                </li>
             </ul>
         </nav>
         <!-- /.sidebar-menu -->
