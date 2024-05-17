@@ -49,14 +49,14 @@ class MenuController extends Controller
             'menus' => $this->menuService->getParent()
         ]);
     }
-    // Sửa danh mục
+
     public function update(Menu $menu, CreateFormRequest $request)
     {
         $this->menuService->update($request, $menu);
 
         return redirect('/admin/menus/list');
     }
-    //Xóa danh mục
+
     public function destroy(Request $request): JsonResponse
     {
         $result = $this->menuService->destroy($request);
