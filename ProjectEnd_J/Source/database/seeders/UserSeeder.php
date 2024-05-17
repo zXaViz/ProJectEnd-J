@@ -23,7 +23,7 @@ class UserSeeder extends Seeder
             'phone' => '0334340937',
             'avatar' => 'avatar.png',
         ]);
-        for ($i = 0; $i < 35; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             DB::table('users')->insert([
                 'name' => 'trieu',
                 'email' => 'trieu2012@gmail.com',
